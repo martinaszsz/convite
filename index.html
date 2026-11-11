@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VC QUEER?</title>
+	<link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="interface">
+    <div id="container">
+        
+       <header id="cabecalho">
+        <h1>VOC ACEITA SAIR COMIGO?</h1>
+        <img id="icone" src="imgs/question.gif" alt="icone">
+            <ul id="menu">
+                <li 
+                   onclick="showCat('imgs/sim.gif')">
+                    <a href="https://wa.me/51998173391" target="_blank">SIM</a></li>
+                <li onmouseover="this.querySelector('a').textContent = 'SIM'"
+                    onmouseout="this.querySelector('a').textContent = 'NÃO'">
+                    <a>NÃO</a></li>
+            </ul>
+        </header>
+    </div>
+</div>
+</body>
+</html>

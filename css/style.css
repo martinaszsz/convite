@@ -1,0 +1,106 @@
+
+body {
+    background-color: rgb(247, 227, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+ 
+    
+}
+
+
+div#interface {
+    background-color: rgb(253, 47, 144, 29%);
+    border-radius: 50px;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 40px 30px;
+    box-shadow: 0px 2px 8px rgb(129, 129, 129);
+    
+}
+
+div#container {
+    background-color: rgb(248, 242, 250);
+    border-radius: 30px;
+    width: 561px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+
+}
+
+
+header#cabecalho {
+    background-color: transparent;
+    width: 463px;
+    height: 352px;
+   
+
+}
+header#cabecalho h1 {
+    color: rgb(255, 0, 107);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+ul#menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 colunas com largura igual */
+    grid-gap: 20px; /* Espaçamento entre os itens */
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: -300px;
+    margin-left:15px;
+    cursor: pointer;
+    
+  }
+
+   #menu li {
+    background-color: rgba(197, 241, 255, 1);
+    padding: 20px 20px;
+    text-align: center;
+    width: 150px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+#menu li:hover {
+    background-color: rgb(255, 0, 107);
+    color: white;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+img#icone {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    border-radius: 50%;
+    border: 2px solid rgb(248, 248, 248);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    
+}
+
+a:hover {
+    color: white;
+}
+
