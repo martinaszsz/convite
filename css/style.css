@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(247, 227, 238);
+    background-color: rgb(176, 188, 241);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,12 +9,12 @@ body {
     
 }
 
-
 div#interface {
     background-color: rgb(253, 47, 144, 29%);
+      background-image: url('../imgs/stars.gif');
     border-radius: 50px;
     width: 600px;
-    height: 500px;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,6 +79,7 @@ ul#menu {
     color: white;
     transition: 0.3s;
     transform: scale(1.1);
+    box-shadow: 0px 2px 8px rgb(255, 5, 122);
 }
 
 img#icone {
@@ -96,7 +97,7 @@ a {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: black;
+    color: rgb(15, 0, 10);
     
 }
 
